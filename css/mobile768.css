@@ -1,0 +1,94 @@
+@media screen and (max-width: 770px) {
+
+	html main{
+		width: 100%;
+	}
+
+	html div#sidemenu{
+		display: none;
+	}
+	
+	html body.home div#content{
+		left: 0px;
+		width: 100%;
+	}
+
+	html .home #main article,
+	html .category #main article,
+	html .tag #main article,
+	html .search #main article,
+	html .author #main article{
+    	width: 90%;
+		margin: 5%;
+	}
+	
+	#primary-navigation{
+		font-size:20px;
+	}
+
+	body article .entry-content{
+		font-size: 25px;
+	}
+
+	.single #main article{
+		width: 100%;
+	}
+
+	html .single #comments p.comment-form-author #author, 
+	html .home #comments p.comment-form-author #author,
+	html #comments input#email,
+	html .single p.comment-form-url #url, 
+	html .home p.comment-form-url #url{
+		margin: 0px;
+		clear: both;
+		width: 75%;
+	}
+
+	html #commentsSpace,
+	html #widgetsSpace{
+		top: 30%;
+	}
+
+	html #widgets-holder h2{
+		width: 60%;
+   		margin-left: 15%;
+    		text-align: center;
+	}
+
+	.widget-title-space{
+		width:60%;
+		text-align:center;
+	}
+
+	html #widgetsBar > h2{
+		width: 80%;
+	}
+
+	html .paginationNumbers{
+		width:80%;
+		margin:0 10%;
+	}
+
+	html .fn{
+		float:none;
+	}
+
+	html body.single .entry-footer div,
+	html body.page .entry-footer div{
+		width:100%;
+		margin: 2% 0%;
+		height: auto;
+		min-height: 50px;
+	}
+	
+	html body.single .entry-footer div.links_post,
+	html body.page .entry-footer div.links_post{
+		width:100%;
+		margin: 2% 0%;
+	}
+	
+	html .smallPagination{
+		display: block;
+	}
+	
+}

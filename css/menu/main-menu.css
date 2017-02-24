@@ -1,0 +1,57 @@
+
+.site-navigation{
+	position: relative;
+	font-size: 25px;
+	display:block;
+	text-align:center;
+	float:right;
+}
+
+.site-navigation li{
+	text-align: center;
+	position: relative;
+	display: list-item;
+	padding: 5px;
+	margin-left: 10px;
+	list-style: none;
+}
+
+.menu-all-pages-container{
+	float:right;
+}
+
+.site-navigation .sub-menu{
+	display: none;
+}
+
+li.dropdown:hover > ul.sub-menu,
+li.dropdown:focus > ul.sub-menu{
+	position:absolute;
+	left: 0;
+	right: auto;
+	display: block;
+	z-index:99999;
+	background:#fff;
+	top:40px
+}
+
+li.dropdown:hover > ul.sub-sub-menu,
+li.dropdown:focus > ul.sub-sub-menu{
+	position:absolute;
+	left: auto;
+	right: 100%;
+	display: block;
+	z-index:99999;
+	background:#fff;
+	top:0px
+}
+
+ul.sub-menu li{
+	display: block;
+	float: right;
+	padding: 2%;
+	margin: 0px;
+	width: 95%;
+}
+
+	

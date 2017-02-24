@@ -1,0 +1,904 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html, body{
+	font-size: 24px;
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+
+html body.home{
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+
+header#masthead{
+	text-align:center;
+	width:100%;
+	height:10%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index:10000;
+}
+
+.single header#masthead,
+.page header#masthead{
+	width: 100%;
+	position: relative;
+	height:150px;
+	top: 0px;
+	left: 0px;
+}
+
+.single div#menu,
+.page div#menu{
+	height:100px;
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
+
+div#menu{
+	text-align:center;
+	width:100%;
+	height:10%;
+	position: fixed;
+	top: 10%;
+	left: 0px;
+	z-index:10000;
+}
+
+div#sidemenu{
+	position:fixed;
+	top:20%;
+	left:0px;
+	height:80%;
+	display:inline-block;
+	width: 20%;
+}
+
+#content{
+	top: 20%;
+	position: relative;
+	width: 100%;
+}
+
+body.home #content{
+	width: 79%;
+	position: fixed;
+	top: 20%;
+	right: 0px;
+	height: 80%;
+	overflow-y:scroll;
+}
+
+#primary-navigation{
+	width: 100%;
+	text-align: center;
+}
+	
+#header-area{	
+	font-family: 'Varela Round', sans-serif;
+	font-size: 80px;
+	text-align: center;
+}
+
+.branding-holder{
+	position: absolute;
+	display: table;
+	height: 100%;
+    width: 100%;
+}
+
+.single .branding-holder,
+.page .branding-holder{
+	height: auto;
+	position: relative;
+}
+
+.site-branding{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.site-title{
+	margin-left: auto;
+    margin-right: auto; 
+	width: 75%;
+	font-size: 50px;
+}
+
+#header-area .description{
+	font-size: 24px;
+	text-align: left;
+	margin:15px 0px;
+	overflow: hidden;
+}
+
+#header-area h1 a, 
+#header-area p a{
+	text-decoration: none;
+}
+
+.archive article,
+.tag article,
+.search article,
+.author article{
+	width: 100%;
+}
+
+.search-no-results article{
+	width: 100%;
+}
+
+.home article,
+.archive article,
+.tag article,
+.search article,
+.author article{
+   	position: relative;
+   	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.site-navigation{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 3px;	
+	width: 100%;
+	z-index: 10;
+	font-size: 25px;
+}
+
+body{
+	font-family: 'Varela Round', sans-serif;
+}	
+
+#searchform p{
+	text-align:center;
+	padding:10px;
+}
+
+#searchform{
+	text-align: center;
+}
+
+#filterShowButton{
+	font-size:18px;
+	padding: 2px 5px;
+	margin: 3px;
+	display: block;
+	margin: 0 auto;
+}
+
+div#menuStrip{
+	position:fixed;
+	top:30px;
+	left:0px;
+	z-index:100;
+}
+
+.home div#page{
+	position:relative;
+	top:30px;
+}
+
+.home article,
+.search article,
+.archive article{
+	position: relative;
+    width: 29%;
+	margin: 0% 1% 2% 1%;
+	padding: 1%;
+}
+
+.page article .entry-content,
+.single article .entry-content{
+	margin: 0%;
+}
+
+.page #content,
+.search #content,
+.author #content,
+.archive #content,
+.single #content{
+	margin: 4% 5% 5% 5%;
+	width: 90%;
+}
+
+
+.search #content,
+.author #content,
+.archive #content{
+	margin: 7% 2.5% 5% 2.5%;
+	width: 95%;
+}
+
+article .entry-content{
+	text-align: left;
+	vertical-align: middle;
+	line-height: normal; 
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+}
+
+.entry-footer{
+	text-align: left;
+}
+
+.entry-footer div{
+	text-align: left;
+	margin: 15px 0px;
+	display: inline-block;
+}
+
+.entry-footer div h6{
+	display: inline-block;
+}
+
+.entry-footer div h6.meta_label{
+	clear: both;
+	position: relative;
+	margin-right: 10px;
+	font-size: 24px;
+}
+
+.entry-footer a{
+	text-decoration: none;
+	word-wrap:break-word; 
+	overflow-wrap:break-word; 
+}
+
+.entry-footer span a span{
+	word-wrap:break-word; 
+	overflow-wrap:break-word; 
+}
+
+#comments #form-allowed-tags{
+	font-size: 15px;
+}
+
+#comments label{
+	vertical-align: top;
+}
+
+.category article .entry-title,
+.category article .page-footer,
+.search article .entry-title,
+.search article .page-footer,
+.author article .entry-title,
+.author article .page-footer,
+.tag article .entry-title,
+.tag article .page-footer{
+	padding: 3px;
+}
+
+.category .page-header,
+.category .page-footer,
+.home .page-footer,
+.author .page-header,
+.author .page-footer,
+.search .page-header,
+.search .page-footer,
+.tag .page-header,
+.tag .page-footer{
+	position: relative;
+	font-size: 30px;
+	width: 100%;
+	margin: 0% 0% 1% 0%;
+}
+
+.home .page-footer,
+.category .page-footer,
+.search .page-footer,
+.author .page-footer,
+.tag .page-footer{
+	top: 0px;
+}
+
+.page-header .page-title,
+.search .page-title,
+.page-footer .page-title,
+.page-footer .pagination,
+.featured-content .page-title,
+.page-header .taxonomy-description,
+.page-footer .taxonomy-description{
+	padding: 10px;
+}
+
+.search .page-title,
+.tag #content .page-footer,
+.search #content .page-footer,
+.category #content .page-footer,
+.author #content .page-footer{
+	margin-bottom: 10px;
+}
+
+.page-footer .taxonomy-description a{
+	text-decoration: none;
+}
+
+.page-footer h1 a,
+.page-footer h1 span{
+	text-decoration: none;
+	padding: 2px 10px;
+}
+
+footer.page-footer h1.pagination{
+	text-align: center;
+}
+
+footer.page-footer h1.pagination span.more{
+	padding: 4px;
+	margin-right: 10px;
+}
+
+#primary-navigation{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+section.not-found{
+	width: 90%;
+	margin: 5%;
+}
+
+section.not-found .page-content{
+	margin-bottom: 10px;
+	padding: 20px 10px;
+}
+
+.taxonomy_picture{
+	width: 20%;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.taxonomy_content{
+	width: 70%;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.comment-body{
+	width: 100%;
+	left: 0%;
+	margin: 1% 5%;
+	position: relative;
+	overflow: hidden;
+	padding: 10px;
+}
+
+body .comment-list article{
+	padding: 10px;
+	margin: 0px;
+	width: 98%;
+}
+
+.comment-respond{
+	margin: 10px 0px;
+}
+
+.comment-reply-title{
+	font-size: 30px;
+}
+
+.comment-form-comment{
+	margin: 10px 0px;
+}
+
+.comment-form-comment textarea{
+	width: 99%;
+}	
+
+input[type=submit], 
+button{
+	font-family: "Varela Round", sans-serif;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.widget-title{
+	color: inherit;
+	font-size: 20px;
+}
+
+.page-footer h1.pagination,
+.page-footer h1.page-title{
+	padding: 20px;
+}
+
+.page p.entry-title,
+.single p.entry-title{
+	font-size: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.page .entry-content,
+.single .entry-content{
+	margin: 20px 0px;
+}
+
+#main .comment-list .comment article{
+	margin: 10px 0px;
+}
+
+img.avatar{
+	float:left;
+	margin: 0% 2% 1% 0%;
+}
+
+.fn{
+	vertical-align: top;
+    float: left;
+    margin: 0px 5px;
+}
+
+.comment-meta time{
+	margin-left: 5px;
+}
+
+.description{
+	padding: 15px;
+}
+
+.page #primary,
+.single #primary{
+	margin-top: 10px;
+}
+
+#commentform p{
+	margin: 5px 0px;
+}
+
+#commentform input[type=text],
+#commentform textarea,
+#commentform input[type=email],
+#commentform input[type=url]{
+	padding: 5px;
+}
+
+#commentform textarea{
+	font-size: 28px;
+}
+
+em{
+	font-style: italic;
+}
+
+strong{
+	font-weight: bold;
+}
+
+.page article,
+.single article{
+	width: 100%;
+	display: inline-block;
+}
+
+.page footer.comment-meta,
+.single footer.comment-meta{
+	margin: 0%;
+}
+
+html body #main #comments article{
+	margin: 0px;
+	background-color: inherit;
+	padding: 5px;
+}
+
+#comments input#author{
+	margin-left: 10px;
+}
+
+#comments input#email{
+	margin-left: 20px;
+}	
+
+.widget-area aside{
+	  padding: 10px;
+	  margin-bottom: 10px;
+}
+
+.category-page{
+	text-align:center;
+}
+
+.post-thumbnail-article{
+	display: block;
+	margin: 5px auto;
+}
+
+.site-title{
+	padding-top: 10px;
+}
+
+html{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+#comments ul,
+#comments ol{
+	list-style: none;
+}
+
+.entry-content ul,
+.entry-content ol,
+.widget-area aside ul,
+.widget-area aside ol{
+	margin-left: 23px;
+}
+
+main{
+	display: inline-block;
+	width: 100%;
+}
+
+footer#colophon{
+	margin-top: 10px;
+}
+
+.error404 #page h1.page-title{
+	margin: 0px;
+	padding: 0px;
+}
+
+input.search-field{
+	padding: 10px;
+	vertical-align: top;
+	width: 80%;
+	margin: 5px 0px;
+}
+
+#primary{
+	margin-top: 10px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 24px;
+}
+
+h5{
+	font-size: 20px;
+}
+
+h6{
+	font-size: 16px;
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 8px;
+	vertical-align: middle;
+	border-top: 7px solid;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+}
+
+.page article ul,
+.page article ol,
+.single article ul,
+.single article ol{
+	padding-left: 2.5%;
+}	
+
+.page p.comment-form-url #url
+.single p.comment-form-url #url,
+.home p.comment-form-url #url{
+	margin-left: 14px;
+}
+
+.page #comments p.comment-form-author #author,
+.single #comments p.comment-form-author #author,
+.home #comments p.comment-form-author #author{
+	margin-left: 13px;
+}
+
+.linkprevious, 
+.linknext{
+	display: inline-block;
+	vertical-align: top;
+	width: 44%;
+	margin:2%;
+}
+
+.linknext{
+	text-align:right;
+}
+
+.linkhome{
+	width:96%;
+	text-align:center;
+	margin: 2%;
+}
+
+.paginationNumbers{
+	text-align:center;
+}
+
+.nomoreposts{
+	padding: 20px;
+	text-align: center;
+}
+
+.page .thumbnail,
+.single .thumbnail{
+	text-align:center;
+	margin:0 auto;
+}
+
+.pagination a{
+	padding: 3px;
+	margin: 1px;
+}
+
+.paginationNumbers p{
+	margin: 3px;
+}
+
+#sitesearchform form input[type=text],
+#commentform input[type=text],
+#commentform input[type=email],
+#commentform input[type=url],
+textarea{
+	color: #fff;
+	border:1px solid #fff;
+}
+
+html body .sp-replacer{
+	background:#fff;
+}
+
+#filterBar label{
+	margin: 0% 3%;
+}
+
+.entry-read-more{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.page #main article .aside
+.single #main article .aside{
+	width:80%;
+	padding: 5%;
+	margin:0% 5%;
+}
+
+.page blockquote,
+.single blockquote{
+	font-style: italic;
+	font-size: 40px;
+}
+
+.page .image,	
+.single .image{
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+}	
+
+.page .gallery,
+.page .video .wp-video
+.single .gallery,
+.single .video .wp-video{
+	text-align: center;
+	margin: 0 auto;
+}	
+
+.page .gallery img,	
+.single .gallery img{
+	display: inline-block;
+}	
+
+.page .chat p,		
+.single .chat p{
+	display: inline-block;
+}	
+		
+
+#airthrey_castletopscroll{
+	position: fixed;
+	top: 80%;
+	right: 5%;
+	display: none;
+}
+
+#shareForm{
+	display: none;
+}
+
+#shareButtons{
+	margin-left: 30px;
+	padding: 2px;
+}
+
+#shareButtons a{
+	padding: 0px 10px;
+}
+
+.no-posts{
+	width:75%;
+	margin: 0 12.5%;
+}
+
+section.error-404 header.page-header{
+	text-align:center;
+}	
+	
+.sticky{}
+
+.accessibility_hidden{
+	display:none;
+}
+
+.single article table{
+	width: 100%;
+}
+
+.filter_reset{
+	font-size:20px;
+}	
+
+.search-results .page p.entry-title{
+	font-size: 25px;
+}
+
+.search-results .page header,
+.search-results .page .content-holder{
+	margin: 0%;
+}
+
+footer#colophon{
+	height: 100px;
+}
+
+div.content-holder div{
+	word-break: break-word;
+}
+
+.entry-content-index{
+	font-size:18px;
+}
+
+.home article .entry-title,
+.archive article .entry-title,
+.search article .entry-title{
+	font-size:20px;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+#airthrey_castle_filter{
+	text-align: left;
+}
+
+#airthrey_castle_filter label{
+	font-size: 18px;
+	width: 100%;
+}
+
+#airthrey_castle_filter div{
+	text-align: center;
+}
+
+#airthrey_castle_filter select,
+#airthrey_castle_filter input[type="text"]{
+	font-family: "Varela Round", sans-serif;
+	font-size: 18px;
+	width: 90%;
+	margin: 0% 5%;
+}
+
+
+body.page article blockquote p,
+body.single article blockquote p{
+	line-height:40px;
+}
+
+body.page article p,
+body.single article p{
+	line-height:28px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#airthrey_castle_filter p span{
+	margin-bottom: 3px;
+}
+
+#airthrey_castle_filter p{
+	font-size:18px;
+	text-align: center;
+}
+
+.page .entry-footer,
+.single .entry-footer{
+	text-align:center;
+	margin: 0 auto;
+}
+
+.page .entry-footer div,
+.single .entry-footer div{
+	width: 21%;
+	margin-right:1%;
+	padding: 1%;
+	text-align: center;
+	display: inline-block;
+	min-height: 150px;
+	vertical-align: top;
+	font-size:18px;
+}
+
+.page .entry-footer .links_post,
+.single .entry-footer .links_post{
+	width: 47.7%;
+	margin: 0% 1.5% 0% 0%;
+	padding: 2% 0%;
+	height: auto;
+	min-height: 30px;
+	
+}
+
+.page .entry-footer div h6,
+.single .entry-footer div h6{
+	font-size:20px;
+	display: block;
+}
+
+div#menu li{
+	display: inline-block;
+}
+
+.smallPagination{
+	display:none;
+}
+
+#comments{
+	padding: 2px;
+}
+
+#widget-area{
+	width: 90%;
+	margin: 0% 5%;
+}
