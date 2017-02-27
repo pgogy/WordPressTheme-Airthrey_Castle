@@ -2,7 +2,6 @@
 
 class Walker_Menu_airthrey_castle extends Walker {
 
-    // Tell Walker where to inherit it's parent and id values
     var $db_fields = array(
         'parent' => 'menu_item_parent', 
         'id'     => 'db_id' 
@@ -10,7 +9,6 @@ class Walker_Menu_airthrey_castle extends Walker {
 	
 	var $first = false;
 
-    
 	function start_lvl( &$output, $depth = 0, $args = array() ) {
 	
 		$extra = "";

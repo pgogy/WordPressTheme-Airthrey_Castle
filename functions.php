@@ -339,4 +339,4 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/comments.php';
 require get_template_directory() . '/inc/airthrey_castle_filter.php';
 require get_template_directory() . '/inc/customizer.php';
-require get_template_directory() . '/inc/menus/Walker_Menu_airthrey_castle.php';
+require get_template_directory() . '/inc/menus/Walker_Menu_Airthrey_Castle.php';
