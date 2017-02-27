@@ -213,17 +213,17 @@ function airthrey_castle_custom_css() {
 
 		.nav-links a,
 		.site-navigation ul li{
-			background-color :  <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_submenu_background_colour','#3b5998')); ?>;
+			background-color :  <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_submenu_background_colour','#007934')); ?>;
 		}
 	
 		li.sub-menu{
-			background-color :  <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_submenu_background_colour','#3b5998')); ?>;
+			background-color :  <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_submenu_background_colour','#007934')); ?>;
 		}
 		
 		.site-navigation li a:hover,
 		.site-navigation li a:focus {
 			transition: background-color 0.5s ease;
-			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_menu_text_hover_colour','#1dffff')); ?>;
+			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_menu_text_hover_colour','#33d177')); ?>;
 		}
 		
 		.site-navigation li:hover, 
@@ -231,7 +231,7 @@ function airthrey_castle_custom_css() {
 		.nav-links a:focus,
 		.site-navigation li:focus {
 			transition: background-color 0.5s ease;
-			background-color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_menu_background_hover_colour','#1da1f2')); ?>;
+			background-color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_menu_background_hover_colour','#3d7655')); ?>;
 		}
 		
 		.site-navigation ul li .current-menu-item a{
@@ -258,35 +258,35 @@ function airthrey_castle_custom_css() {
 		}
 
 		a{
-			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_alllink_colour','#3b5998')); ?>;
+			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_alllink_colour','#007934')); ?>;
 		}
 		
 		html a:hover,
 		html a:focus{
 			transition: background-color 0.5s ease;
-			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_alllink_hover_colour','#1da1f2')); ?>;
+			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_alllink_hover_colour','#3d7655')); ?>;
 		}
 		
 		.nav-links a:hover,
 		.nav-links a:focus{
 			transition: background-color 0.5s ease;
-			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_background_colour','#3b5998')); ?>;
+			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_background_colour','#007934')); ?>;
 		}
 		
 		header#masthead h1 a,
 		header#masthead p a{
-			color: <?PHP echo esc_html(get_theme_mod("airthrey_castle_site_title_colour",'#3b5998')); ?>;
+			color: <?PHP echo esc_html(get_theme_mod("airthrey_castle_site_title_colour",'#007934')); ?>;
 		}
 		
 		header#masthead h1 a:hover,
 		header#masthead p a:hover{
 			transition: background-color 0.5s ease;
-			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_alllink_hover_colour','#1da1f2')); ?>;
+			color: <?PHP echo esc_html(get_theme_mod('airthrey_castle_site_alllink_hover_colour','#3d7655')); ?>;
 		}
 		
 		button,
 		input[type=submit]{
-			background-color:  <?PHP echo esc_html(get_theme_mod("airthrey_castle_site_button_colour",'#3b5998')); ?>;
+			background-color:  <?PHP echo esc_html(get_theme_mod("airthrey_castle_site_button_colour",'#007934')); ?>;
 			color:  <?PHP echo esc_html(get_theme_mod("airthrey_castle_site_button_text_colour",'#ffffff')); ?>;
 		}
 		
@@ -295,8 +295,8 @@ function airthrey_castle_custom_css() {
 		}
 		
 		article{
-			border-top:2px solid <?PHP echo esc_html(get_theme_mod('airthrey_castle_border_top_colour',"#1dffff")); ?>;
-			border-bottom:3px solid <?PHP echo esc_html(get_theme_mod('airthrey_castle_border_bottom_colour','#3b5998')); ?>;
+			border-top:2px solid <?PHP echo esc_html(get_theme_mod('airthrey_castle_border_top_colour',"#33d177")); ?>;
+			border-bottom:3px solid <?PHP echo esc_html(get_theme_mod('airthrey_castle_border_bottom_colour','#007934')); ?>;
 		}
 		
 		.links_post,
@@ -305,12 +305,12 @@ function airthrey_castle_custom_css() {
 		#commentform input[type=text],
 		#commentform input[type=email],
 		#commentform input[type=url]{
-			background-color: <?PHP echo esc_html(get_theme_mod("airthrey_castle_pagination_background_colour",'#3b5998')); ?>;
+			background-color: <?PHP echo esc_html(get_theme_mod("airthrey_castle_pagination_background_colour",'#007934')); ?>;
 		}
 		
 		.single .entry-footer div,
 		.page .entry-footer div{
-			border: 1px solid <?PHP echo esc_html(get_theme_mod("airthrey_castle_pagination_background_colour",'#3b5998')); ?>;
+			border: 1px solid <?PHP echo esc_html(get_theme_mod("airthrey_castle_pagination_background_colour",'#007934')); ?>;
 		}
 		
 		.links_post a{
