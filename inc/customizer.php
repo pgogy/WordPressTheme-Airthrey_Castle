@@ -99,7 +99,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_alllink_colour',
 		array(
-			'default' => '#3b5998',
+			'default' => '#007934',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -120,7 +120,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_alllink_hover_colour',
 		array(
-			'default' => '#1dffff',
+			'default' => '#33d177',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -204,7 +204,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_title_colour',
 		array(
-			'default' => '#3b5998',
+			'default' => '#007934',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -246,7 +246,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_header_text_colour',
 		array(
-			'default' => '#3b5998',
+			'default' => '#007934',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -267,7 +267,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_submenu_background_colour',
 		array(
-			'default' => '#3b5998',
+			'default' => '#007934',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -288,7 +288,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_menu_background_hover_colour',
 		array(
-			'default' => '#1dffff',
+			'default' => '#33d177',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -351,7 +351,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_menu_text_hover_colour',
 		array(
-			'default' => '#1dffff',
+			'default' => '#33d177',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -372,7 +372,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_site_button_colour',
 		array(
-			'default' => '#3b5998',
+			'default' => '#007934',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -414,7 +414,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_pagination_background_colour',
 		array(
-			'default' => '#3b5998',
+			'default' => '#007934',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -456,7 +456,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_border_top_colour',
 		array(
-			'default' => '#1dffff',
+			'default' => '#33d177',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
@@ -477,7 +477,7 @@ function airthrey_castle_customize_register_add_site_colours( $wp_customize ) {
 	$wp_customize->add_setting(
 		'airthrey_castle_border_bottom_colour',
 		array(
-			'default' => '#3b5998',
+			'default' => '#007934',
 			'transport' => 'postMessage',
 			'sanitize_callback' => 'airthrey_castle_sanitize_colour',
 		)
