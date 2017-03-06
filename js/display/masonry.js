@@ -116,9 +116,5 @@ function airthrey_castle_masonry_append_loop(list, container, msnry){
 			200
 		);	
 		
-	}else{
-	
-		console.log("done");
-		
 	}
 }
