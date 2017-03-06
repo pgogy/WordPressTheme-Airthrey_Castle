@@ -10,11 +10,8 @@ function airthrey_castle_filter_search(){
 				'nonce': airthrey_castle_filter.nonce
 			};
 			
-	console.log(data);		
-			
-	jQuery.post(airthrey_castle_filter.ajaxURL, data, function(response) {
 
-			console.log(response);
+	jQuery.post(airthrey_castle_filter.ajaxURL, data, function(response) {
 
 			response_data = JSON.parse(response);
 
@@ -68,8 +65,7 @@ jQuery(document).ready( function(){
 					'nonce': airthrey_castle_filter.nonce
 				};
 				
-				console.log(data);
-				
+
 				jQuery.post(airthrey_castle_filter.ajaxURL, data, function(response) {
 										
 						response_data = JSON.parse(response);
