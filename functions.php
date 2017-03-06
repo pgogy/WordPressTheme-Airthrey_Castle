@@ -90,7 +90,6 @@ function airthrey_castle_scripts() {
 	
 	wp_enqueue_script( 'airthrey_castle-front-page-menu', get_template_directory_uri() . '/js/display/front-page-menu.js', array( 'jquery' ), "", true );
 	
-	wp_enqueue_script( 'airthrey_castle-front-page-filter', get_template_directory_uri() . '/js/display/front-page-filter.js', array( 'jquery' ), "", true );
 	wp_enqueue_script( 'airthrey_castle-front-page-filter-change', get_template_directory_uri() . '/js/display/front-page-filter-change.js', array( 'jquery' ), "", true );
 	wp_localize_script( 'airthrey_castle-front-page-filter-change', 'airthrey_castle_filter', 
 																			array( 
@@ -339,4 +338,4 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/comments.php';
 require get_template_directory() . '/inc/airthrey_castle_filter.php';
 require get_template_directory() . '/inc/customizer.php';
-require get_template_directory() . '/inc/menus/Walker_Menu_Airthrey_Castle.php';
+require get_template_directory() . '/inc/menus/Walker_Menu_airthrey_castle.php';
